@@ -1,0 +1,2 @@
+# debis
+Deprem Bilgi Sistemi
