@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debis v4.0</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+        .mag-red {
+            background-color: red;
+        }
+        .mag-yellow {
+            background-color: yellow;
+        }
+        .mag-green {
+            background-color: green;
+        }
+      .p1 
+      font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+      <link rel="stylesheet" href="public/css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-QTY2Wjfs3lJ5ulH7OVu5vpzXV+J1YyyPYpxV7uo4OwE8m7e3H5Q5o5gSv5X9meV1LrqYhR7V4Kw4fE7WzfNGzA==" crossorigin="anonymous" />
+      <meta http-equiv="refresh" content="360">
+    </head>
+  <header>
+    <h1 class="p1">Deprem Bilgi Sistemi v4.0 Early Access <h1>
+  </header>
+<body>
+    <table id="deprem-tablosu">
+        <thead>
+            <tr>
+                <th onclick="sortTable(0)">Date/Tarih</th>
+                <th onclick="sortTable(1)">Magnitude/Şiddet</th>
+                <th onclick="sortTable(2)">Location/Konum</th>
+                <th onclick="sortTable(3)">Deep/Derinlik</th>
+                <th onclick="sortTable(4)">Database ID</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+    <script src="app.js"></script>
+</body>
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Badge</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+            }
+            .duyuru-popup {
+                position: fixed;
+                bottom: 20px;
+                right: 20px;
+                background-color: red;
+                color: white;
+                padding: 15px;
+                border-radius: 5px;
+                z-index: 9999;
+                cursor: pointer;
+                transition: 0.3s;
+            }
+            .duyuru-popup:hover {
+                background-color: #0056B3;
+            }
+        </style>
+      </head>
+      <body>
+        <div class="duyuru-popup" id="duyuru-popup" onclick="window.open('https://skripy.cloud/index.html', '_blank');">
+          Skripy
+        </div>
+        <script>
+            var popup = document.getElementById('duyuru-popup');
+
+                popup.style.display = 'none';
+            }
+        </script>
+      </footer>&copy;2024 Skripy Cloud . All Rights Reserved.</footer> 
+</html>

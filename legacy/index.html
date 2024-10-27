@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Deprem Bilgi Sistemi v3.1</title> 
+    <link rel="icon" type="image/x-icon" href="https://skripy.cloud/cdn/index.php/apps/files_sharing/ajax/publicpreview.php?x=1920&y=561&a=true&file=Debis.png&t=Sdw8sad5BgZlrH7&scalingup=0">
+    <link rel="stylesheet" href="public/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-QTY2Wjfs3lJ5ulH7OVu5vpzXV+J1YyyPYpxV7uo4OwE8m7e3H5Q5o5gSv5X9meV1LrqYhR7V4Kw4fE7WzfNGzA==" crossorigin="anonymous" />
+    <meta http-equiv="refresh" content="360">
+  </head>
+<header>
+  <img src="https://skripy.cloud/cdn/index.php/apps/files_sharing/ajax/publicpreview.php?x=1920&y=561&a=true&file=Debis.png&t=Sdw8sad5BgZlrH7&scalingup=0" alt="Logo">
+  <h1><i class="fas fa-exclamation-triangle"></i>  Deprem Bilgi Sistemi v3.1</h1>
+</header>
+    <table>
+      <thead>
+        <tr>
+          <th>Tarih v Saat</th>
+          <th>Şiddet</th>
+          <th>Bölge</th>
+          <th>Derinlik</th>
+          <th>Database ID</th>
+        </tr>
+      </thead>
+      <tbody id="deprem-tablosu">
+      </tbody>
+    </table>
+    <script src="/depremler/public/js/script.js"></script>
+  </body>
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Badge</title>
+      <style>
+          body {
+              font-family: Arial, sans-serif;
+          }
+          .duyuru-popup {
+              position: fixed;
+              bottom: 20px;
+              right: 20px;
+              background-color: red;
+              color: white;
+              padding: 15px;
+              border-radius: 5px;
+              z-index: 9999;
+              cursor: pointer;
+              transition: 0.3s;
+          }
+          .duyuru-popup:hover {
+              background-color: #0056B3;
+          }
+      </style>
+  </head>
+  <body>
+      <div class="duyuru-popup" id="duyuru-popup">
+        Coded by Skripy
+      </div>
+      <script>
+          var popup = document.getElementById('duyuru-popup');
+          
+              popup.style.display = 'none';
+          }
+      </script>
+  </html>
